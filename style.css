@@ -169,18 +169,28 @@ a{
         position: relative;
         top: 10px;
         margin: 0 50px 0 50px;
+        
 
     }
     
     .headerlogo{
 
         margin: 0 25px 0 25px;
-
+        z-index: 30000;
     }
 
     .nav{
         width: 100vw;
         background: green;
+    }
+
+    .mobile-nav{
+        display: flex;
+        justify-content: space-between;
+        width: 65vw;
+        position: fixed;
+        bottom: 15vh;
+
     }
 
 .order{
