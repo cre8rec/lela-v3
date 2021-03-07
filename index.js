@@ -57,7 +57,7 @@ console.log('yes')
 
 
   
-
+const headerLink = document.querySelectorAll('.header-link')
 
 document.addEventListener('scroll', function (e) {
     var top  = window.pageYOffset + window.innerHeight,
@@ -70,6 +70,10 @@ document.addEventListener('scroll', function (e) {
   
         if(black) {
           document.querySelector('header').classList.add('black');
+
+        
+        headerLink.style.color = 'white'
+        
           
    
         } else {
