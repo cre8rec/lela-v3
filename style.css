@@ -370,7 +370,7 @@ border-radius: 50px;
 
 .container-1{
 
-    height: 150vh;
+    height: 200vh;
     width: 100vw;
     text-align: center;
     background: url(./img/lelalogobig.jpg);
@@ -545,13 +545,14 @@ border-radius: 50px;
 }
 
 .social-container{
-    width: 80vw;
+    width: 100vw;
     max-width: 300px;
     display: flex;
     position: fixed;
     right: 0;
     top: 51.5vh;
     height: 300px;
+   
    
 
     justify-content: space-between;
@@ -680,7 +681,7 @@ i{
     }
 
     .social{
-        padding: 25px ;
+        padding: 25px 0 ;
         height: 20vh;
        
     }
