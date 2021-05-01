@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, viewport-fit=cover">
     <title>Le La Calgary: Vietnamese Restaurant - Pho Delivery Takeout</title>
     <meta name="description" content="Le La Vietnamese Restaurant Calgary | Authentic Pho, Vermicelli, Subs | Takeout & Delivery | SkipTheDishes ">
-    <link rel="stylesheet" href="style.css?v4.2">
+    <link rel="stylesheet" href="style.css?v4.3">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=MuseoModerno&family=Poiret+One&family=Raleway&display=swap" rel="stylesheet">
 </head>
@@ -19,11 +21,12 @@
     <header class="header">
         <a target="_blank" href="https://lelavietnamese.gpr.globalpaymentsinc.ca/menu"><h3 class="header-link" id="header-link">menu</h3></a>
         <a href="https://www.skipthedishes.com/le-la-vietnamese-restaurant-centre-st" target="_blank"><h3 class="header-link" id="header-link">takeout</h3></a>
-        <a href="#"><img class="headerlogo" width="66px" src="./img/logo.svg" id="header-link"></a>
+        <a href="#"><img class="headerlogo"  width="66px" src="./img/logo.svg" id="header-link"></a>
         <a href="#contact"><h3 class="header-link" id="header-link">contact</h3></a>
         <a href="#about"><h3 class="header-link" id="header-link">about</h3></a>
 
       <div class="dropdown">
+
 
             <a onclick="closeDropdown()" class="link" href="#"><h3 >menu</h3></a>
             <a onclick="closeDropdown()" class="link" href="https://www.skipthedishes.com/le-la-vietnamese-restaurant-centre-st" target="_blank"><h3 >delivery</h3></a>
@@ -51,14 +54,14 @@
 
 
     <div class="dropdown-button">
-        <i class="fa fa-bars hamburgers" aria-hidden="true"></i>
-
+        <i class="fa fa-bars hamburgers menu-icon" aria-hidden="true"></i>
+        <i class="fa fa-close hamburgers close-icon" style="display:none;" aria-hidden="true"></i>
     </div>
 
 
 </div>
 
-<div class="promo">Get 10% off when ordering from our menu. Promo code: LELA</div>
+<div class="promo">Get 10% off when ordering from our online menu.</div>
 
 
  
@@ -100,9 +103,9 @@
  
  
 
- <div class="container-1" id="about" >
+ <div class="container-1"  >
 
-    <div class="screenexpand" >
+    <div id="about" class="screenexpand" >
         <img width="100px" class="corner-left-2" src="./img/corner.png" >
         <img width="100px" class="corner-right-2" src="./img/corner-right.png">
         <h2 class="red">Our Story</h2>
@@ -152,11 +155,11 @@
 
                 <p class="promo-main">
 
-                    5 Servings of Pho $44.75
-                </br>
-                    8 Servings of Pho $71.50
-                </br>
-                    10 Servings of Pho $89.25
+                    <span>5 Servings of Pho $44.75</span>
+          
+                    <span>8 Servings of Pho $71.50</span>
+       
+                    <span>10 Servings of Pho $89.25</span>
 
                 </p>
                     
@@ -206,17 +209,17 @@
         <p class="hours">
             Monday - Thursday
         </br>
-        11.00 - 20.30
+        11:00 - 19:00
         </br></br>
 
         Friday - Saturday
         </br>
-        11.00 - 21.00
+        11:00 - 19:00
         </br></br>
 
         Sunday
         </br>
-        11.30 - 20.00
+        11:30 - 19:00
         </br></br>
             
         </p>

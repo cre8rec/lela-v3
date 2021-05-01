@@ -30,14 +30,22 @@ window.addEventListener('scroll',onScroll);
 
 const dropdownIcon = document.querySelector('.dropdown-button')
 const dropdown = document.querySelector('.dropdown')
+const menu = document.querySelector('.fa-bars')
+const closeMenu = document.querySelector('.fa-close')
+
+
 
 
 dropdownIcon.addEventListener('click', function(){
 
     if (dropdown.style.display === 'none'){
         dropdown.style.display = 'flex'
+        menu.style.display = 'none';
+        closeMenu.style.display = 'flex';
     } else {
         dropdown.style.display = 'none'
+        menu.style.display = 'flex';
+        closeMenu.style.display = 'none';
     }
 
 })
@@ -49,8 +57,12 @@ const closeDropdown = () =>{
 console.log('yes')
     if (dropdown.style.display === 'none'){
         dropdown.style.display = 'flex'
+        menu.style.display = 'none';
+        closeMenu.style.display = 'flex';
     } else {
         dropdown.style.display = 'none'
+        menu.style.display = 'flex';
+        closeMenu.style.display = 'none';
     }
 
 }
